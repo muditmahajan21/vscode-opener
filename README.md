@@ -1,6 +1,6 @@
 # VS Code Workspace Opener
 
-A Vicinae extension to quickly browse and open your git repositories in VS Code.
+A [Vicinae](https://github.com/vicinaehq/vicinae) extension to quickly browse and open your git repositories in VS Code.
 
 ## Features
 
