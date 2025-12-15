@@ -4,12 +4,11 @@ A Vicinae extension to quickly browse and open your git repositories in VS Code.
 
 ## Features
 
-- 🔍 Automatically finds all git repositories in `~/work` directory
-- 🚀 Opens workspaces in new VS Code windows
-- 📋 Copy repository paths to clipboard
-- 🖥️ Open repositories in terminal
-- 🔄 Refresh repository list on-demand
-- ⚙️ Configurable workspace directory and search depth
+- Automatically finds all git repositories in `~/work` directory
+- Opens workspaces in new VS Code windows
+- Copy repository paths to clipboard
+- Open repositories in terminal
+- Refresh repository list on-demand
 
 ## Installation
 
@@ -32,14 +31,10 @@ A Vicinae extension to quickly browse and open your git repositories in VS Code.
 
 4. The extension should now be available in Vicinae
 
-### From Vicinae Extensions Store
-
-*(Coming soon - submit to https://github.com/vicinaehq/extensions)*
-
 ## Usage
 
 1. Open Vicinae launcher
-2. Type `@code` or search for "Open VS Code Workspace"
+2. Search for "Open VS Code Workspace"
 3. Browse the list of available git repositories
 4. Press Enter to open the selected repository in VS Code
 
