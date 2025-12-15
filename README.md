@@ -85,11 +85,3 @@ npm run lint
 ```bash
 npm run format
 ```
-
-## License
-
-MIT
-
-## Author
-
-mudit
