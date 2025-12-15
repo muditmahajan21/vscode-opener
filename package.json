@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/extensions/main/schemas/package.schema.json",
+  "name": "vscode-opener",
+  "title": "VS Code Workspace Opener",
+  "description": "Open VS Code workspaces from ~/work directory",
+  "icon": "vscode-icon.png",
+  "author": "mudit",
+  "license": "MIT",
+  "version": "1.0.0",
+  "commands": [
+    {
+      "name": "code",
+      "title": "Open VS Code Workspace",
+      "description": "Browse and open git repositories in VS Code",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "workspaceDirectory",
+      "title": "Workspace Directory",
+      "description": "Directory to search for git repositories",
+      "type": "textfield",
+      "required": false,
+      "default": "~/work"
+    },
+    {
+      "name": "maxDepth",
+      "title": "Search Depth",
+      "description": "Maximum directory depth to search for git repos",
+      "type": "textfield",
+      "required": false,
+      "default": "3"
+    }
+  ],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici dev",
+    "lint": "vici lint",
+    "format": "biome check --write ."
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.15.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.7",
+    "typescript": "^5.9.2"
+  }
+}
